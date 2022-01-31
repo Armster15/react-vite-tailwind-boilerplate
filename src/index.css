@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.focus-ring {
+    @apply focus-visible:ring-4 focus-visible:ring-cyan-400 focus-visible:ring-offset-4 outline-none focus-visible:duration-[0ms];
+}
